@@ -1,0 +1,170 @@
+:root {
+    /* font-size */
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 20px;
+    --fs-xxl: 24px;
+    --fs-3xl: 30px;
+    --fs-4xl: 38px;
+    --fs-5xl: 48px;
+
+    /* font-weight */
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+    --fw-900: 900;
+
+
+    /* line-height */
+    --line-16: 16px;
+    --line-21: 21px;
+    --line-24: 24px;
+    --line-27: 27px;
+    --line-30: 30px;
+    --line-36: 36px;
+    --line-45: 45px;
+    --line-57: 57px;
+
+    /* color */
+    --white: #FFFFFF;
+    --black: #000000;
+    --light-white: #E6E6E6;
+    --light-black: #262626;
+    --white-1: #98989A;
+    --white-2: #FDFFFA;
+    --text-color: #D8FF99;
+    --black-1: #1A1A1A;
+    --btn-color: #9EFF00;
+    --btn-2: #333333;
+--input: #656567;
+
+
+}
+.input{
+    color: var(--input);
+}
+.btn-2{
+    color: var(--btn-2);
+}
+.line-16{
+    line-height: var(--line-16);
+}
+.line-21{
+    line-height: var(--line-21);
+}
+.line-24{
+    line-height: var(--line-24);
+}
+.line-27{
+    line-height: var(--line-27);
+}
+.line-30{
+    line-height: var(--line-30);
+}
+.line-36{
+    line-height: var(--line-36);
+}
+.line-45{
+    line-height: var(--line-45);
+}
+.line-57{
+    line-height: var(--line-57);
+}
+.btn-color {
+    color: var(--btn-color);
+}
+
+.barlow {
+    font-family: 'Barlow', sans-serif;
+}
+
+.light-white {
+    color: var(--light-white);
+}
+
+.light-black {
+    color: var(--light-black);
+}
+
+.white-1 {
+    color: var(--white-1);
+}
+
+.white-2 {
+    color: var(--white-2);
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.black-1 {
+    color: var(--black-1);
+}
+
+.fs-14 {
+    font-size: var(--fs-sm);
+}
+
+.fs-16 {
+    font-size: var(--fs-md);
+}
+
+.fs-18 {
+    font-size: var(--fs-lg);
+}
+
+.fs-20 {
+    font-size: var(--fs-xl);
+}
+
+.fs-24 {
+    font-size: var(--fs-2xl);
+}
+
+.fs-30 {
+    font-size: var(--fs-3xl);
+}
+
+.fs-38 {
+    font-size: var(--fs-4xl);
+}
+
+.fs-48 {
+    font-size: var(--fs-5xl);
+}
+
+.white {
+    color: var(--white);
+}
+
+.black {
+    color: var(--black);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+.fw-800 {
+    font-weight: var(--fw-800);
+}
+
+.fw-900 {
+    font-weight: var(--fw-900);
+}
