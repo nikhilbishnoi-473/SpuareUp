@@ -54,4 +54,5 @@ $('.responsive_1').slick({
   pauseOnHover: true,
   cssEase: 'linear',
 });
+
  
