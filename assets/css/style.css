@@ -226,8 +226,9 @@
     transition: all ease-in-out 400ms;
 }
 .btn_1:hover{
-    background: var(--white); 
-    color: var(--black-1);
+    /* background: var(--white); 
+    color: var(--black-1); */
+    box-shadow: 0px 0px 20px 0px var(--btn-color);
  }
 
  
@@ -485,8 +486,9 @@
     transition: all ease-in-out 400ms;
 }
 .btn_con:hover{
-    background: var(--white); 
-    color: var(--black-1);
+    /* background: var(--white); 
+    color: var(--black-1); */
+    box-shadow: 0px 0px 20px 0px var(--btn-color);
  }
 
 .gap-13 {
@@ -568,8 +570,9 @@ background: #050504;
     border: none;
 }
 .btn_sub:hover{
-    background: var(--white);
-    color: var(--light-black);
+    /* background: var(--white);
+    color: var(--light-black); */
+    box-shadow: 0px 0px 15px 0px var(--btn-color);
 }
 .pt-100 {
     padding-top: 100px;
@@ -630,6 +633,7 @@ background: #050504;
 .btn_learn:hover{
     background: var(--white);
     color: var(--black-1);
+    box-shadow: 0px 0px 10px 0px var(--white);
 }
 
 .mt-84 {
@@ -719,6 +723,7 @@ border-radius: 8px;
 .btn_open:hover{
     background: var(--white);
     color: var(--black-1);
+    box-shadow: 0px 0px 10px 0px var(--white);
 }
 
 .border_r{
@@ -766,9 +771,9 @@ border-radius: 8px;
 
 }
 .btn_start:hover{
-
-    background: var(--white);
-    color: var(--black-1);
+box-shadow: 0px 0px 15px 0px var(--btn-color);
+    /* background: var(--white);
+    color: var(--black-1); */
 }
 .input_box{
     max-width: 846px;
@@ -990,6 +995,7 @@ border: 1px solid var(--btn-2);
 
 
 }
+
 .opacity_img{
     opacity: 0;
 }
