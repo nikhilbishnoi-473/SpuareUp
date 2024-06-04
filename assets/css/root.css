@@ -2,10 +2,10 @@
     /* font-size */
     --fs-sm: 14px;
     --fs-md: 16px;
-    --fs-lg: 18px;
+    --fs-lg: 16px;
     --fs-xl: 18px;
     --fs-xxl: 24px;
-    --fs-3xl: 30px;
+    --fs-3xl: 26px;
     --fs-4xl: 28px;
     --fs-5xl: 36px;
 
@@ -21,10 +21,10 @@
     /* line-height */
     --line-16: 16px;
     --line-21: 21px;
-    --line-24: 24px;
+    --line-24: 22px;
     --line-27: 27px;
     --line-30: 30px;
-    --line-36: 36px;
+    --line-36: 32px;
     --line-45: 35px;
     --line-57: 49px;
 
