@@ -241,7 +241,7 @@
     font-size: 18px;
     border: none;
     outline: none;
-    background: var(--green);
+    background: var(--btn-color);
     cursor: pointer;
     padding: 12px;
     border-radius: 50px;
@@ -481,6 +481,7 @@
     border-radius: 8px;
     max-width: 108px;
     background: var(--btn-color);
+    border: none;
     transition: all ease-in-out 400ms;
 }
 .btn_con:hover{
@@ -529,16 +530,35 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
+.cursor{
+    cursor: pointer;
+}
 .bg_img_2 {
-background: #1A1A1A ;
+background: #050504;
     background-image: url(../image/png/bg-img2.png);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     
 }
-
+.bg_img_1{
+    position: relative;
+}
+.bg_img_1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--light-black);
+    opacity: 50%;
+    z-index: 1;
+}
+.z-30{
+    z-index: 30;
+    position: relative;
+}
 .pt-100 {
     padding-top: 100px;
 }
@@ -820,7 +840,7 @@ padding: 20px 30px;
     gap: 22px;
 }
 
-
+/* 
 
 .accordion
 .accordion-button:not(.collapsed) {
@@ -856,15 +876,6 @@ padding: 20px 30px;
   
 }
 
-.max-w-630 {
-    max-width: 630px;
-}
-
-
-
-.mt-20 {
-    margin-top: 20px;
-}
  
 
 
@@ -908,7 +919,97 @@ padding: 20px 30px;
     position: relative;
     border-radius: 0 !important;
     
+} */
+
+/* accordion */
+.accordion-button:not(.collapsed) {
+    color: var(--accordion_text);
+    box-shadow: none;
+    border: none;
+    z-index: 3;
+
 }
+.accordion-body {
+    padding: 0px 0px 0px 125px !important;
+   
+
+}
+.accordion-button {
+    position: relative;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: transparent !important;
+    border: none;
+    border-radius:  none;
+    transition: var(--bs-accordion-transition);
+}
+
+.accordion-button:focus {
+    z-index: 30;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion {
+    z-index: 30;
+    --bs-accordion-color: var(--light-white);
+    --bs-accordion-bg: none;
+    border-radius: none;
+    --bs-accordion-btn-padding-x: 40px;
+    --bs-accordion-btn-padding-y: 24px;
+    --bs-accordion-btn-color: var(--white);
+    --bs-accordion-btn-icon-width: 1.25rem;
+    --bs-accordion-btn-icon-transform: rotate(-180deg);
+    --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+    --bs-accordion-body-padding-x: none;
+    --bs-accordion-body-padding-y: none;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    z-index: 3;
+    background-image: url(../image/svg/Union.svg);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../image/svg/union2.svg);
+    transform: var(--bs-accordion-btn-icon-transform);
+    z-index: 3;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.accordion-item {
+    color: none;
+    background-color: none;
+    border: none;
+}
+
+.max-w-630 {
+    max-width: 630px;
+}
+.pt-60{
+    padding-top: 60px;
+}
+
+
+.mt-20 {
+    margin-top: 20px;
+}
+ .bor_top{
+    border-top: 1px solid var(--light-black);
+ }
 .max-w-474{
     max-width: 474px;
 }
