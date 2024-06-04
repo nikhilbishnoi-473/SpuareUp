@@ -1165,6 +1165,17 @@ border: 1px solid var(--btn-2);
 
 }
 @media (max-width: 768px) {
+
+.min-h-448 {
+    min-height: 500px;
+}
+
+    .pt-112{
+        padding-top: 80px;
+    }
+    .pb-274{
+        padding-bottom: 150px;
+    }
     .pt-100{
         padding-top: 70px;
     }
@@ -1208,6 +1219,15 @@ padding-bottom: 40px;
     }
 }
 @media (max-width: 575px) {
+    .min-h-448 {
+        min-height: 480px;
+    }
+    .pt-112{
+        padding-top: 40px;
+    }
+    .pb-274{
+        padding-bottom: 100px;
+    }
     .py-40{
         padding-top: 30px;
         padding-bottom: 30px;
